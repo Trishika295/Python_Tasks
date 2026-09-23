@@ -156,6 +156,7 @@ function App() {
             {/* Result Details */}
             <div>
 
+
               <h2>
                 {result.result} Number
               </h2>
