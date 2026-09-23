@@ -38,18 +38,18 @@ jobs:
         working-directory: Task_4
         run: npm ci
 
-      - name: Build React app
+      - name: Build Task 4
         working-directory: Task_4
         run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload Task 4
         uses: actions/upload-pages-artifact@v3
         with:
           path: Task_4/dist
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy Task 4
         id: deployment
         uses: actions/deploy-pages@v4
