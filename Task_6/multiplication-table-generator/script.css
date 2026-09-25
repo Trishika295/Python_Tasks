@@ -1,0 +1,790 @@
+/* =========================================
+   GLOBAL
+========================================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      #e8edff 0%,
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 0% 100%,
+      #e8e6ff 0%,
+      transparent 28%
+    ),
+    #f7f8fc;
+
+  min-height: 100vh;
+  color: #172033;
+}
+
+
+/* =========================================
+   MAIN CONTAINER
+========================================= */
+
+.app-container {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 45px 25px;
+}
+
+
+/* =========================================
+   MAIN CARD
+========================================= */
+
+.card {
+  width: 100%;
+  max-width: 1020px;
+
+  background: #ffffff;
+
+  padding: 22px 42px 28px;
+
+  border-radius: 24px;
+
+  box-shadow:
+    0 20px 50px rgba(30, 41, 59, 0.08),
+    0 4px 12px rgba(30, 41, 59, 0.04);
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.header {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  text-align: left;
+
+  min-height: 145px;
+
+  padding: 25px 32px;
+
+  margin-bottom: 40px;
+
+  border-radius: 17px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f6f5ff,
+      #f7f9ff
+    );
+}
+
+
+/*
+   Optional icon before the heading.
+
+   This works if your JSX has:
+   <div className="header-icon">...</div>
+*/
+
+.header-icon {
+  width: 90px;
+  height: 90px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 22px;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #7c3aed,
+      #5b21b6
+    );
+
+  box-shadow:
+    0 8px 20px rgba(124, 58, 237, 0.20);
+}
+
+.header-icon span {
+  color: #ffffff;
+
+  font-size: 46px;
+
+  line-height: 1;
+}
+
+
+/* Header Heading */
+
+.header h1 {
+  color: #172033;
+
+  font-size: 36px;
+
+  font-weight: 700;
+
+  letter-spacing: -0.7px;
+
+  margin-bottom: 8px;
+}
+
+
+/* Header Subtitle */
+
+.header p {
+  color: #718096;
+
+  font-size: 18px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================
+   INPUT SECTION
+========================================= */
+
+/*
+   Two inputs side by side.
+
+   If your JSX has only .input-group elements
+   inside the main container, this section
+   gives them a professional layout.
+*/
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+
+/* Labels */
+
+.input-group label {
+  display: block;
+
+  margin-bottom: 11px;
+
+  font-size: 17px;
+
+  font-weight: 700;
+
+  color: #243044;
+}
+
+
+/* Inputs */
+
+.input-group input {
+  width: 100%;
+
+  height: 64px;
+
+  padding: 0 20px;
+
+  border: 2px solid #dce3ec;
+
+  border-radius: 12px;
+
+  outline: none;
+
+  background: #ffffff;
+
+  color: #263247;
+
+  font-size: 18px;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input-group input:focus {
+  border-color: #7c3aed;
+
+  box-shadow:
+    0 0 0 4px rgba(124, 58, 237, 0.08);
+}
+
+
+/* =========================================
+   INPUT GROUP WRAPPER
+========================================= */
+
+/*
+   If your JSX contains:
+
+   <div className="input-section">
+      <div className="input-group">...</div>
+      <div className="input-group">...</div>
+   </div>
+
+   this creates the side-by-side layout.
+*/
+
+.input-section {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 30px;
+
+  margin-bottom: 5px;
+}
+
+
+/* =========================================
+   BUTTON CONTAINER
+========================================= */
+
+.button-container {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 15px;
+
+  margin-top: 5px;
+
+  margin-bottom: 38px;
+}
+
+
+/* All buttons */
+
+button {
+  width: 100%;
+
+  height: 62px;
+
+  padding: 0 20px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  font-size: 17px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+}
+
+
+/* =========================================
+   GENERATE BUTTON
+========================================= */
+
+.generate-button {
+  background:
+    linear-gradient(
+      135deg,
+      #7c3aed,
+      #5b21b6
+    );
+
+  color: #ffffff;
+
+  box-shadow:
+    0 8px 18px rgba(124, 58, 237, 0.20);
+}
+
+.generate-button:hover {
+  background:
+    linear-gradient(
+      135deg,
+      #6d28d9,
+      #4c1d95
+    );
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 12px 24px rgba(124, 58, 237, 0.25);
+}
+
+.generate-button:disabled {
+  background: #94a3b8;
+
+  cursor: not-allowed;
+
+  box-shadow: none;
+
+  transform: none;
+}
+
+
+/* =========================================
+   CLEAR BUTTON
+========================================= */
+
+.clear-button {
+  background: #e7ebf1;
+
+  color: #405066;
+}
+
+.clear-button:hover {
+  background: #dce2ea;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================
+   ERROR MESSAGE
+========================================= */
+
+.error-message {
+  margin-top: 20px;
+
+  padding: 13px 16px;
+
+  border-radius: 10px;
+
+  background: #fef2f2;
+
+  color: #b91c1c;
+
+  text-align: center;
+
+  font-size: 15px;
+
+  border: 1px solid #fecaca;
+}
+
+
+/* =========================================
+   RESULT SECTION
+========================================= */
+
+.result-section {
+  margin-top: 5px;
+
+  padding: 0;
+
+  border: 1px solid #e2e6f0;
+
+  border-radius: 17px;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 5px 18px rgba(30, 41, 59, 0.04);
+}
+
+
+/* Result Heading */
+
+.result-section h2 {
+  text-align: left;
+
+  color: #172033;
+
+  font-size: 27px;
+
+  margin-bottom: 4px;
+}
+
+
+/* =========================================
+   RESULT HEADER
+========================================= */
+
+/*
+   If you have a .result-header in JSX,
+   this will create the template layout.
+*/
+
+.result-header {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 25px 30px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #fafaff,
+      #f7f8ff
+    );
+}
+
+
+/* Result title area */
+
+.result-title {
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+}
+
+
+/* Result icon */
+
+.result-icon {
+  width: 58px;
+  height: 58px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-shrink: 0;
+
+  border-radius: 15px;
+
+  background: #ede9fe;
+
+  color: #6d28d9;
+
+  font-size: 30px;
+}
+
+
+/* Result subtitle */
+
+.limit-text {
+  text-align: left;
+
+  color: #718096;
+
+  font-size: 17px;
+
+  margin-bottom: 0;
+}
+
+
+/* =========================================
+   CALCULATION BADGE
+========================================= */
+
+.calculation-badge {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  padding: 11px 17px;
+
+  border-radius: 12px;
+
+  background: #f0ebff;
+
+  color: #6d28d9;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  white-space: nowrap;
+}
+
+
+.check-icon {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  background: #7c3aed;
+
+  color: #ffffff;
+
+  font-size: 12px;
+}
+
+
+/* =========================================
+   TABLE CONTAINER
+========================================= */
+
+.table-container {
+  overflow-x: auto;
+
+  padding: 0 18px 25px;
+}
+
+
+/* =========================================
+   TABLE
+========================================= */
+
+table {
+  width: 100%;
+
+  border-collapse: separate;
+
+  border-spacing: 0;
+
+  overflow: hidden;
+
+  border: 1px solid #e1e6ef;
+
+  border-radius: 13px;
+}
+
+
+/* =========================================
+   TABLE HEADER
+========================================= */
+
+th {
+  padding: 16px 12px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #6d28d9,
+      #5b21b6
+    );
+
+  color: #ffffff;
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  text-align: center;
+}
+
+
+/* =========================================
+   TABLE DATA
+========================================= */
+
+td {
+  padding: 15px 12px;
+
+  text-align: center;
+
+  font-size: 16px;
+
+  color: #273449;
+
+  border-bottom: 1px solid #e7ebf0;
+}
+
+
+/* Last row */
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+
+/* Alternating rows */
+
+tbody tr:nth-child(even) {
+  background: #f8f9fc;
+}
+
+tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+
+/* Hover */
+
+tbody tr:hover {
+  background: #f1edff;
+
+  transition: background 0.2s ease;
+}
+
+
+/* =========================================
+   RESULT VALUE
+========================================= */
+
+.result-value {
+  font-weight: 700;
+
+  color: #7c3aed;
+
+  font-size: 17px;
+}
+
+
+/* =========================================
+   FOOTER / HINT
+========================================= */
+
+.footer-hint {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-top: 20px;
+
+  padding: 16px 20px;
+
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f5f3ff,
+      #f8f7ff
+    );
+
+  color: #718096;
+
+  font-size: 14px;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 800px) {
+
+  .app-container {
+    padding: 25px 15px;
+  }
+
+  .card {
+    padding: 20px 25px 28px;
+  }
+
+  .header {
+    min-height: auto;
+
+    padding: 25px;
+
+    margin-bottom: 30px;
+  }
+
+  .header h1 {
+    font-size: 29px;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .input-section {
+    grid-template-columns: 1fr;
+
+    gap: 0;
+  }
+
+  .result-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .calculation-badge {
+    align-self: flex-start;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .app-container {
+    padding: 15px 10px;
+  }
+
+  .card {
+    padding: 15px;
+
+    border-radius: 18px;
+  }
+
+  .header {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 25px 15px;
+  }
+
+  .header-icon {
+    margin-right: 0;
+
+    width: 70px;
+    height: 70px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .button-container {
+    grid-template-columns: 1fr;
+
+    gap: 10px;
+
+    margin-bottom: 28px;
+  }
+
+  .result-header {
+    padding: 20px;
+  }
+
+  .result-section h2 {
+    font-size: 21px;
+  }
+
+  .result-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  th,
+  td {
+    padding: 12px 8px;
+
+    font-size: 14px;
+  }
+
+  .footer-hint {
+    font-size: 13px;
+  }
+}
