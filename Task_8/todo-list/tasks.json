@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Practice Coding",
+        "completed": true
+    },
+    {
+        "id": 2,
+        "title": "Study for Exams",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "title": "Research Paper Reading",
+        "completed": true
+    },
+    {
+        "id": 4,
+        "title": "Update Resume",
+        "completed": true
+    },
+    {
+        "id": 5,
+        "title": "Plan Weekly Goals",
+        "completed": true
+    }
+]
