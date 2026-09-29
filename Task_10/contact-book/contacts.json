@@ -1,0 +1,22 @@
+{
+    "C001": {
+        "name": "Kavya",
+        "phone": "90876543221",
+        "email": "kav@gmail.com"
+    },
+    "C002": {
+        "name": "Tanisha",
+        "phone": "90800543221",
+        "email": "tan@gmail.com"
+    },
+    "C003": {
+        "name": "Rihas",
+        "phone": "90876543243",
+        "email": "rs@gmail.com"
+    },
+    "C004": {
+        "name": "Sham",
+        "phone": "90876543001",
+        "email": "sham@gmail.com"
+    }
+}
