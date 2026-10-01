@@ -1,0 +1,43 @@
+VALID PALINDROMES
+=================
+
+1. madam
+2. racecar
+3. level
+4. radar
+5. civic
+6. A man a plan a canal Panama
+7. Never odd or even
+8. Was it a rat I saw
+
+
+INVALID PALINDROMES
+===================
+
+1. hello
+2. python
+3. computer
+4. programming
+5. internship
+6. developer
+7. artificial intelligence
+8. student
+
+
+EXPECTED RESULTS
+================
+
+Input: madam
+Result: Palindrome
+
+Input: racecar
+Result: Palindrome
+
+Input: A man a plan a canal Panama
+Result: Palindrome
+
+Input: hello
+Result: Not a Palindrome
+
+Input: Python
+Result: Not a Palindrome
