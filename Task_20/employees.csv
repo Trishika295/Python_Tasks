@@ -1,0 +1,13 @@
+EmployeeID,Name,Department,Salary
+101,Aarav,IT,55000
+102,Diya,HR,45000
+103,Rohan,Finance,60000
+104,Ananya,IT,65000
+105,Kabir,Marketing,40000
+106,Meera,HR,50000
+107,Arjun,Finance,70000
+108,Isha,IT,58000
+109,Vikram,Marketing,
+110,Neha,Finance,invalid
+111,Riya,HR,52000
+112,Karan,IT,

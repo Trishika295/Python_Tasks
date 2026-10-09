@@ -1,0 +1,30 @@
+==================================================
+          CSV DATA PROCESSOR REPORT
+==================================================
+Generated on: 2026-10-09 18:22:32
+
+GENERAL STATISTICS
+--------------------------------------------------
+Total CSV records: 12
+Valid salary records: 9
+Missing salary records: 2
+Invalid or skipped records: 1
+
+SALARY STATISTICS
+--------------------------------------------------
+Total salary: Rs. 495,000.00
+Average salary: Rs. 55,000.00
+Highest salary: Rs. 70,000.00
+Lowest salary: Rs. 40,000.00
+Highest-paid employee(s): Arjun
+
+DEPARTMENT SUMMARY
+--------------------------------------------------
+Finance: 2 valid employee(s), average salary Rs. 65,000.00
+HR: 3 valid employee(s), average salary Rs. 49,000.00
+IT: 3 valid employee(s), average salary Rs. 59,333.33
+Marketing: 1 valid employee(s), average salary Rs. 40,000.00
+
+==================================================
+End of Report
+==================================================
