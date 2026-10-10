@@ -1,0 +1,47 @@
+
+{
+    "employees": [
+        {
+            "EmployeeID": 101,
+            "Name": "Aarav",
+            "Department": "IT",
+            "Salary": 55000,
+            "Skills": ["Python", "SQL"]
+        },
+        {
+            "EmployeeID": 102,
+            "Name": "Diya",
+            "Department": "HR",
+            "Salary": 42000,
+            "Skills": ["Communication", "Recruitment"]
+        },
+        {
+            "EmployeeID": 103,
+            "Name": "Rahul",
+            "Department": "IT",
+            "Salary": 68000,
+            "Skills": ["Python", "Machine Learning"]
+        },
+        {
+            "EmployeeID": 104,
+            "Name": "Ananya",
+            "Department": "Finance",
+            "Salary": 48000,
+            "Skills": ["Accounting", "Excel"]
+        },
+        {
+            "EmployeeID": 105,
+            "Name": "Kiran",
+            "Department": "IT",
+            "Salary": 60000,
+            "Skills": ["Java", "SQL"]
+        },
+        {
+            "EmployeeID": 106,
+            "Name": "Meera",
+            "Department": "HR",
+            "Salary": 45000,
+            "Skills": ["Communication", "Python"]
+        }
+    ]
+}
