@@ -77,3 +77,5 @@ loading, validation, scoring, and result calculation.
 
 The project strengthens understanding of modular programming,
 data handling, input validation, and application development.
+
+## Live Demo: https://py-quiz.streamlit.app/
