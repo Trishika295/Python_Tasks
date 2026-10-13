@@ -1,5 +1,4 @@
-
-# Task 23 - Quiz Application
+## Quiz Application
 
 ## Project Description
 
