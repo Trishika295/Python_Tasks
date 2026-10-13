@@ -1,0 +1,153 @@
+
+[
+  {
+    "question": "Which language is primarily used for this quiz application?",
+    "options": {
+      "A": "Java",
+      "B": "Python",
+      "C": "C++",
+      "D": "PHP"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which data type stores key-value pairs in Python?",
+    "options": {
+      "A": "List",
+      "B": "Tuple",
+      "C": "Dictionary",
+      "D": "Set"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which Python module is used to work with JSON data?",
+    "options": {
+      "A": "json",
+      "B": "random",
+      "C": "math",
+      "D": "os"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which symbol is used for comments in Python?",
+    "options": {
+      "A": "//",
+      "B": "<!--",
+      "C": "/*",
+      "D": "#"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Which function displays output in Python?",
+    "options": {
+      "A": "input()",
+      "B": "print()",
+      "C": "display_text()",
+      "D": "write()"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which keyword defines a function in Python?",
+    "options": {
+      "A": "function",
+      "B": "define",
+      "C": "def",
+      "D": "fun"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which collection is ordered and mutable in Python?",
+    "options": {
+      "A": "List",
+      "B": "Tuple",
+      "C": "Set",
+      "D": "Frozen set"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which loop is commonly used to iterate over a list?",
+    "options": {
+      "A": "switch",
+      "B": "foreach",
+      "C": "repeat",
+      "D": "for"
+    },
+    "answer": "D"
+  },
+  {
+    "question": "What does len() return?",
+    "options": {
+      "A": "The data type",
+      "B": "The number of items",
+      "C": "The largest value",
+      "D": "The memory address"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "Which keyword is used to handle an exception in Python?",
+    "options": {
+      "A": "catch",
+      "B": "error",
+      "C": "except",
+      "D": "handle"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which method adds an item to the end of a list?",
+    "options": {
+      "A": "append()",
+      "B": "insert_end()",
+      "C": "add_last()",
+      "D": "push_back()"
+    },
+    "answer": "A"
+  },
+  {
+    "question": "Which operator checks equality in Python?",
+    "options": {
+      "A": "=",
+      "B": "===",
+      "C": "!=",
+      "D": "=="
+    },
+    "answer": "D"
+  },
+  {
+    "question": "Which module can shuffle a list randomly?",
+    "options": {
+      "A": "json",
+      "B": "random",
+      "C": "pathlib",
+      "D": "csv"
+    },
+    "answer": "B"
+  },
+  {
+    "question": "What is the result of 3 ** 2 in Python?",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "9",
+      "D": "8"
+    },
+    "answer": "C"
+  },
+  {
+    "question": "Which file mode is commonly used to read a text file?",
+    "options": {
+      "A": "r",
+      "B": "w",
+      "C": "a",
+      "D": "x"
+    },
+    "answer": "A"
+  }
+]
