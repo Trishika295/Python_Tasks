@@ -1,5 +1,4 @@
-
-# Task 28 — Atmos Weather Intelligence
+Weather Intelligence
 
 A professional, real-time weather dashboard built using Python and Streamlit.
 
@@ -55,3 +54,6 @@ to store recent searches locally.
 
 Weather information is supplied by Open-Meteo. Availability and
 update frequency depend on the upstream weather data service.
+
+## Live Demo
+https://weatherintelligence.streamlit.app/
