@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Hyderabad",
+    "admin1": "Telangana",
+    "country": "India",
+    "latitude": 17.38405,
+    "longitude": 78.45636,
+    "timezone": "Asia/Kolkata",
+    "label": "Hyderabad, Telangana, India",
+    "searched_at": "2026-10-17 20:37"
+  },
+  {
+    "name": "Bengaluru",
+    "admin1": "Karnataka",
+    "country": "India",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "timezone": "Asia/Kolkata",
+    "label": "Bengaluru, Karnataka, India",
+    "searched_at": "2026-10-17 09:00"
+  },
+  {
+    "name": "Mysuru",
+    "admin1": "Karnataka",
+    "country": "India",
+    "latitude": 12.2958,
+    "longitude": 76.6394,
+    "timezone": "Asia/Kolkata",
+    "label": "Mysuru, Karnataka, India",
+    "searched_at": "2026-10-17 09:05"
+  },
+  {
+    "name": "Mangaluru",
+    "admin1": "Karnataka",
+    "country": "India",
+    "latitude": 12.9141,
+    "longitude": 74.856,
+    "timezone": "Asia/Kolkata",
+    "label": "Mangaluru, Karnataka, India",
+    "searched_at": "2026-10-17 09:10"
+  },
+  {
+    "name": "Hubballi",
+    "admin1": "Karnataka",
+    "country": "India",
+    "latitude": 15.3647,
+    "longitude": 75.124,
+    "timezone": "Asia/Kolkata",
+    "label": "Hubballi, Karnataka, India",
+    "searched_at": "2026-10-17 09:15"
+  },
+  {
+    "name": "Chennai",
+    "admin1": "Tamil Nadu",
+    "country": "India",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "timezone": "Asia/Kolkata",
+    "label": "Chennai, Tamil Nadu, India",
+    "searched_at": "2026-10-17 09:20"
+  },
+  {
+    "name": "Coimbatore",
+    "admin1": "Tamil Nadu",
+    "country": "India",
+    "latitude": 11.0168,
+    "longitude": 76.9558,
+    "timezone": "Asia/Kolkata",
+    "label": "Coimbatore, Tamil Nadu, India",
+    "searched_at": "2026-10-17 09:25"
+  },
+  {
+    "name": "Madurai",
+    "admin1": "Tamil Nadu",
+    "country": "India",
+    "latitude": 9.9252,
+    "longitude": 78.1198,
+    "timezone": "Asia/Kolkata",
+    "label": "Madurai, Tamil Nadu, India",
+    "searched_at": "2026-10-17 09:30"
+  },
+  {
+    "name": "Tiruchirappalli",
+    "admin1": "Tamil Nadu",
+    "country": "India",
+    "latitude": 10.7905,
+    "longitude": 78.7047,
+    "timezone": "Asia/Kolkata",
+    "label": "Tiruchirappalli, Tamil Nadu, India",
+    "searched_at": "2026-10-17 09:35"
+  },
+  {
+    "name": "Salem",
+    "admin1": "Tamil Nadu",
+    "country": "India",
+    "latitude": 11.6643,
+    "longitude": 78.146,
+    "timezone": "Asia/Kolkata",
+    "label": "Salem, Tamil Nadu, India",
+    "searched_at": "2026-10-17 09:40"
+  },
+  {
+    "name": "Kochi",
+    "admin1": "Kerala",
+    "country": "India",
+    "latitude": 9.9312,
+    "longitude": 76.2673,
+    "timezone": "Asia/Kolkata",
+    "label": "Kochi, Kerala, India",
+    "searched_at": "2026-10-17 09:45"
+  },
+  {
+    "name": "Thiruvananthapuram",
+    "admin1": "Kerala",
+    "country": "India",
+    "latitude": 8.5241,
+    "longitude": 76.9366,
+    "timezone": "Asia/Kolkata",
+    "label": "Thiruvananthapuram, Kerala, India",
+    "searched_at": "2026-10-17 09:50"
+  },
+  {
+    "name": "Kozhikode",
+    "admin1": "Kerala",
+    "country": "India",
+    "latitude": 11.2588,
+    "longitude": 75.7804,
+    "timezone": "Asia/Kolkata",
+    "label": "Kozhikode, Kerala, India",
+    "searched_at": "2026-10-17 09:55"
+  },
+  {
+    "name": "Thrissur",
+    "admin1": "Kerala",
+    "country": "India",
+    "latitude": 10.5276,
+    "longitude": 76.2144,
+    "timezone": "Asia/Kolkata",
+    "label": "Thrissur, Kerala, India",
+    "searched_at": "2026-10-17 10:00"
+  },
+  {
+    "name": "Vijayawada",
+    "admin1": "Andhra Pradesh",
+    "country": "India",
+    "latitude": 16.5062,
+    "longitude": 80.648,
+    "timezone": "Asia/Kolkata",
+    "label": "Vijayawada, Andhra Pradesh, India",
+    "searched_at": "2026-10-17 10:05"
+  },
+  {
+    "name": "Visakhapatnam",
+    "admin1": "Andhra Pradesh",
+    "country": "India",
+    "latitude": 17.6868,
+    "longitude": 83.2185,
+    "timezone": "Asia/Kolkata",
+    "label": "Visakhapatnam, Andhra Pradesh, India",
+    "searched_at": "2026-10-17 10:10"
+  },
+  {
+    "name": "Tirupati",
+    "admin1": "Andhra Pradesh",
+    "country": "India",
+    "latitude": 13.6288,
+    "longitude": 79.4192,
+    "timezone": "Asia/Kolkata",
+    "label": "Tirupati, Andhra Pradesh, India",
+    "searched_at": "2026-10-17 10:15"
+  },
+  {
+    "name": "Kurnool",
+    "admin1": "Andhra Pradesh",
+    "country": "India",
+    "latitude": 15.8281,
+    "longitude": 78.0373,
+    "timezone": "Asia/Kolkata",
+    "label": "Kurnool, Andhra Pradesh, India",
+    "searched_at": "2026-10-17 10:20"
+  },
+  {
+    "name": "Warangal",
+    "admin1": "Telangana",
+    "country": "India",
+    "latitude": 17.9689,
+    "longitude": 79.5941,
+    "timezone": "Asia/Kolkata",
+    "label": "Warangal, Telangana, India",
+    "searched_at": "2026-10-17 10:30"
+  },
+  {
+    "name": "Nizamabad",
+    "admin1": "Telangana",
+    "country": "India",
+    "latitude": 18.6725,
+    "longitude": 78.0941,
+    "timezone": "Asia/Kolkata",
+    "label": "Nizamabad, Telangana, India",
+    "searched_at": "2026-10-17 10:35"
+  }
+]
