@@ -1,79 +1,82 @@
-
-# Task 28: Python Web Scraper
+# Python Web Scraper
 
 ## Overview
-A beginner-friendly Python web scraping application that
-extracts structured information from a permitted webpage
-and exports the collected data to a CSV file.
+BookScope is a Python web scraping mini project with a
+professional Streamlit frontend. It extracts book information
+from the Books to Scrape practice catalog and exports the
+collected data to CSV.
 
 ## Features
-- Sends HTTP requests using Requests
-- Parses HTML using BeautifulSoup
-- Extracts book titles, prices, availability and ratings
-- Collects product page URLs
-- Checks robots.txt before scraping
-- Handles HTTP, timeout and network errors
-- Exports data to CSV
-- Supports a configurable webpage URL
+- Multi-page catalog scraping
+- HTTP requests and HTML parsing
+- robots.txt access checks
+- Book title, price and availability extraction
+- Rating and product URL extraction
+- Image URL extraction
+- Catalog page tracking
+- Search and rating filters
+- Book preview cards
+- CSV export and download
+- Request delays and error handling
 
 ## Technologies
 - Python
 - Requests
-- BeautifulSoup4
+- BeautifulSoup
+- Pandas
+- Streamlit
 - CSV
-- HTML parsing
 
-## Project Structure
-Task_28_Web_Scraper/
+## Folder Structure
+Task_29/
+├── app.py
 ├── web_scraper.py
 ├── requirements.txt
 ├── README.md
-├── .gitignore
-└── scraped_data.csv (generated)
+└── scraped_data.csv
 
 ## Installation
+Install the required dependencies:
 
-1. Install Python 3.10 or later.
-2. Open a terminal in the project folder.
-3. Install the dependencies:
+    python -m pip install -r requirements.txt
 
-   pip install -r requirements.txt
+## Run the Web Application
 
-## Execution
+    python -m streamlit run app.py
 
-Run the program:
+Open the local URL displayed in the terminal.
 
-   python web_scraper.py
+## Run the Command-Line Version
 
-Choose option 1 to use the default practice website.
-The extracted records are saved to scraped_data.csv.
+    python web_scraper.py
+
+Enter the number of catalog pages when prompted.
 
 ## CSV Fields
-- title: Name of the book
-- price: Displayed price
-- availability: Stock availability text
-- rating: Displayed star-rating category
-- product_url: Link to the product page
+- title
+- price
+- availability
+- rating
+- product_url
+- image_url
+- page_number
 
 ## Learning Outcomes
-- Understanding HTTP requests
-- Learning HTML parsing and CSS selectors
-- Extracting structured information
-- Writing CSV files
-- Handling network errors
-- Understanding responsible scraping practices
+- HTTP requests and responses
+- HTML parsing with CSS selectors
+- Pagination and link extraction
+- Data filtering and presentation
+- CSV file handling
+- Streamlit frontend development
+- Exception handling and responsible scraping
 
-## Responsible Usage
-Only scrape webpages where automated access is permitted.
-Respect robots.txt, website terms and request limits.
-Avoid collecting personal or restricted information.
-
-## Limitations
-The extraction logic depends on the target webpage's HTML
-structure. JavaScript-rendered pages may require a different
-approach. A website's robots.txt rules can change over time.
+## Responsible Use
+The project is designed for the Books to Scrape practice
+website. Review website terms and access restrictions.
+A missing robots.txt file is not, by itself, permission
+to scrape a website.
 
 ## Conclusion
-This project demonstrates the basic workflow of a web scraper:
-requesting a webpage, parsing its HTML, extracting structured
-data and storing the results in a reusable CSV dataset.
+BookScope demonstrates how Python can collect structured
+data from multiple catalog pages, present it in a web
+interface, and export it for further analysis.
