@@ -1,0 +1,114 @@
+[
+    {
+        "student_id": "CS101",
+        "name": "John",
+        "class": "5 A",
+        "marks": {
+            "English": 80,
+            "Mathematics": 82,
+            "Science": 70,
+            "Social Science": 76,
+            "Computer": 91
+        },
+        "created_at": "2026-10-22T18:42:33",
+        "updated_at": "2026-10-22T18:43:33"
+    },
+    {
+        "student_id": "IS101",
+        "name": "Priya",
+        "class": "5 A",
+        "marks": {
+            "English": 95,
+            "Mathematics": 96,
+            "Science": 92,
+            "Social Science": 89,
+            "Computer": 98
+        },
+        "created_at": "2026-10-22T18:47:22",
+        "updated_at": "2026-10-22T18:47:22"
+    },
+    {
+        "student_id": "IS102",
+        "name": "Sharma",
+        "class": "5 A",
+        "marks": {
+            "English": 84,
+            "Mathematics": 76,
+            "Science": 59,
+            "Social Science": 90,
+            "Computer": 83
+        },
+        "created_at": "2026-10-22T18:48:14",
+        "updated_at": "2026-10-22T18:48:14"
+    },
+    {
+        "student_id": "IS103",
+        "name": "Rahul Kumar",
+        "class": "5 B",
+        "marks": {
+            "English": 80,
+            "Mathematics": 79,
+            "Science": 94,
+            "Social Science": 89,
+            "Computer": 88
+        },
+        "created_at": "2026-10-22T18:49:07",
+        "updated_at": "2026-10-22T18:49:07"
+    },
+    {
+        "student_id": "AI101",
+        "name": "Sneha",
+        "class": "5 A",
+        "marks": {
+            "English": 80,
+            "Mathematics": 79,
+            "Science": 94,
+            "Social Science": 89,
+            "Computer": 88
+        },
+        "created_at": "2026-10-22T18:49:42",
+        "updated_at": "2026-10-22T18:49:42"
+    },
+    {
+        "student_id": "AI102",
+        "name": "Arjun Nair",
+        "class": "5 C",
+        "marks": {
+            "English": 85,
+            "Mathematics": 77,
+            "Science": 90,
+            "Social Science": 80,
+            "Computer": 79
+        },
+        "created_at": "2026-10-22T18:50:23",
+        "updated_at": "2026-10-22T18:50:23"
+    },
+    {
+        "student_id": "AI103",
+        "name": "Ananya",
+        "class": "5 C",
+        "marks": {
+            "English": 85,
+            "Mathematics": 0,
+            "Science": 90,
+            "Social Science": 80,
+            "Computer": 42
+        },
+        "created_at": "2026-10-22T18:50:59",
+        "updated_at": "2026-10-22T18:50:59"
+    },
+    {
+        "student_id": "EEE101",
+        "name": "Ishita Menon",
+        "class": "5 B",
+        "marks": {
+            "English": 85,
+            "Mathematics": 56,
+            "Science": 90,
+            "Social Science": 80,
+            "Computer": 49
+        },
+        "created_at": "2026-10-22T18:51:43",
+        "updated_at": "2026-10-22T18:51:43"
+    }
+]
